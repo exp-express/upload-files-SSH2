@@ -1,0 +1,23 @@
+{
+  "name": "upload-files-ssh2",
+  "version": "0.0.1",
+  "description": "利用ssh2的sftp服务上传资源到远程服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssh2",
+    "sftp",
+    "upload",
+    "deploy",
+    "node"
+  ],
+  "author": "zoroer",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "minimist": "^1.2.7",
+    "ssh2": "^1.11.0"
+  }
+}
