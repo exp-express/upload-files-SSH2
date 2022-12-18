@@ -3,7 +3,7 @@
 const projectPath = {
   'hi-user': '/home/website',
   'admin-user': '/home/website',
-  'exp-express': '/usr/local/lighthouse/softwares/nodejs/app',
+  'exp-express': '/usr/local/lighthouse/softwares/nodejs/app/exp-express',
 }
 
 module.exports = projectPath
