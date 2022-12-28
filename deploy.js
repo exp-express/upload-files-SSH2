@@ -33,13 +33,14 @@ const serverConf = {
   host: '43.138.5.12',
   port: 22,
   username: 'root',
-  password: 'Haihan12345,.tx'
+  password: 'SGFpaGFuMTIzNDUsLnR4'
 }
 
 // 入口函数
 const deployStart = () => {
   // 连接ssh2
   try {
+    serverConf.password = Buffer.from(serverConf.password,'base64').toString()
     conn.on('ready', async () => {
       console.log(chalk.blue(`准备开始连接远程服务器：${serverConf.host}`))
       console.log(chalk.blue(`具体远程部署位置：${remoteProjectPath}`))
